@@ -32,6 +32,16 @@ public class Demo {
         cars[2].CheckOil();
         cars[2].CheckPressure();
 
+        SuperCar sc = new SuperCar();
+        sc.setBrand("Porsche");
+        sc.setModel("918");
+        sc.setHorsepower(608);
+        sc.Starter();
+        sc.CheckOil();
+        sc.CheckPressure();
+        sc.CheckTurbocharging();
+
+
 
     for (int x=0; x<3; x=x+1) {
             System.out.println(cars[x].getModel());
