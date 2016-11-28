@@ -1,12 +1,12 @@
 /**
  * Created by stud_6 on 17.10.16.
  */
-public class Cat {
+public class Cat extends Felidae{
     private int Age;
     private String name;
     private String color;
-
-    void Talk() {
+    @Override
+    void talk() {
         System.out.println("May");
     }
 
@@ -31,7 +31,13 @@ public class Cat {
         this.color = color;
     }
 
-    void Go() {
+    @Override
+    void eat() {
+
+    }
+
+    @Override
+    void go() {
         System.out.println("Prisla");
     }
 
@@ -41,4 +47,7 @@ public class Cat {
     public void setName(String name) {
         this.name = name;
     }
+
+
+
 }
