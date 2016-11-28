@@ -13,11 +13,11 @@ public class Car {
     }
 
     void CheckOil(){
-        System.out.println("Oil checked");
+        System.out.println("Oil is OK");
     }
 
     void CheckPressure(){
-        System.out.println("Pressure checked");
+        System.out.println("Pressure is OK\r\n");
     }
 
     public String getBrand() {
@@ -44,6 +44,6 @@ public class Car {
         this.horsepower = horsepower;
     }
 
-
 }
+
 
