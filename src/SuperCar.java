@@ -1,15 +1,42 @@
 /**
  * Created by stud_6 on 22.11.16.
  */
+public class SuperCar extends Car  implements TechInterface {
+    void Starter() {
+        System.out.println("Engine loudly start");
+    }
+    void isOil(){
+        System.out.println("Oil is excellent");
+    }
+    boolean isTurbocharging(){
+        System.out.println("Turbocharging is OK\r\n");
+        return true;
+
+    }
+
+    @Override
+    public void addEquipment() {
+        System.out.println("Equipment has been added");
+    }
+}
+
+
+
+
+
+
+/*
+
 public class SuperCar extends Car {
     void Starter() {
         System.out.println("Engine loudly start");
     }
-    void CheckOil(){
+    void isOil(){
         System.out.println("Oil is excellent");
     }
-    void CheckTurbocharging(){
+    void isTurbocharging(){
         System.out.println("Turbocharging is OK\r\n");
 
     }
 }
+*/
