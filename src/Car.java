@@ -2,6 +2,8 @@
  * Created by stud_6 on 17.10.16.
  */
 
+import java.awt.*;
+
 /**
  * Created by stud_6 on 17.10.16.
  */
@@ -29,6 +31,12 @@ public class Car extends Tech{
         return true;
     }
 
+    public String getColor() {
+        return color;
+    }
+    public String getShade() {
+        return shade;
+    }
 
     public Car(){
         setColor("Red");
@@ -76,6 +84,8 @@ public class Car extends Tech{
     public String toString(){
         return "Color:"+this.getColor()+ "Shade:"+this.getShade();
     }
+
+
 
 }
 
