@@ -5,8 +5,8 @@ public class Demo {
         c.setModel("Golf VII");
         c.setHorsepower(170);
         c.Starter();
-        c.CheckOil();
-        c.CheckPressure();
+        c.isOil();
+        c.isPressure();
 
         Car[] cars;
         cars = new Car[3];
@@ -15,31 +15,31 @@ public class Demo {
         cars[0].setModel("Golf I");
         cars[0].setHorsepower(70);
         cars[0].Starter();
-        cars[0].CheckOil();
-        cars[0].CheckPressure();
+        cars[0].isOil();
+        cars[0].isPressure();
         cars[1] = new Car();
         cars[1].setBrand("Volkswagen");
         cars[1].setModel("Golf II");
         cars[1].setHorsepower(80);
         cars[1].Starter();
-        cars[1].CheckOil();
-        cars[1].CheckPressure();
+        cars[1].isOil();
+        cars[1].isPressure();
         cars[2] = new Car();
         cars[2].setBrand("Volkswagen");
         cars[2].setModel("Golf III");
         cars[2].setHorsepower(90);
         cars[2].Starter();
-        cars[2].CheckOil();
-        cars[2].CheckPressure();
+        cars[2].isOil();
+        cars[2].isPressure();
 
         SuperCar sc = new SuperCar();
         sc.setBrand("Porsche");
         sc.setModel("918");
         sc.setHorsepower(608);
         sc.Starter();
-        sc.CheckOil();
-        sc.CheckPressure();
-        sc.CheckTurbocharging();
+        sc.isOil();
+        sc.isPressure();
+        sc.isTurbocharging();
 
 
 
@@ -89,8 +89,8 @@ public class Demo {
         c.model = "Golf VII";
         c.horsepower = 170;
         c.Starter();
-        c.CheckOil();
-        c.CheckPressure();
+        c.isOil();
+        c.isPressure();
 
 
         Car[] cars;
@@ -100,22 +100,22 @@ public class Demo {
         cars[0].model = "Golf I";
         cars[0].horsepower = 70;
         cars[0].Starter();
-        cars[0].CheckOil();
-        cars[0].CheckPressure();
+        cars[0].isOil();
+        cars[0].isPressure();
         cars[1] = new Car();
         cars[1].brand = "Volkswagen";
         cars[1].model = "Golf II";
         cars[1].horsepower = 80;
         cars[1].Starter();
-        cars[1].CheckOil();
-        cars[1].CheckPressure();
+        cars[1].isOil();
+        cars[1].isPressure();
         cars[2] = new Car();
         cars[2].brand = "Volkswagen";
         cars[2].model = "Golf III";
         cars[2].horsepower = 90;
         cars[2].Starter();
-        cars[2].CheckOil();
-        cars[2].CheckPressure();
+        cars[2].isOil();
+        cars[2].isPressure();
     }
 }
 
