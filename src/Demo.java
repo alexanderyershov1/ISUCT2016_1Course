@@ -1,6 +1,7 @@
 public class Demo {
     public static void main(String[] args) {
         Car c = new Car();
+      //  System.out.println(Demo.toString());
         c.setBrand("Volkswagen");
         c.setModel("Golf VII");
         c.setHorsepower(170);

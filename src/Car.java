@@ -11,6 +11,9 @@ public class Car extends Tech{
     private String model;
     private int horsepower;
 
+    private String color;
+    private String shade;
+
 
     void Starter(){
         System.out.println("Engine start");
@@ -25,6 +28,17 @@ public class Car extends Tech{
         System.out.println("Pressure is OK\r\n");
         return true;
     }
+
+
+    public Car(){
+        setColor("Red");
+        setShade("Crimson");
+    }
+    public Car(String Col, String Shd ){
+        setColor(Col);
+        setShade(Shd);
+    }
+
 
     public String getBrand() {
         return brand;
@@ -56,10 +70,12 @@ public class Car extends Tech{
     }
 
     @Override
-    public void setNumOfWheels(int NumberOfWheels) {
+    public void setNumOfWheels(int NumberOfWheels) {}
 
+    @Override
+    public String toString(){
+        return "Color:"+this.getColor()+ "Shade:"+this.getShade();
     }
-
 
 }
 

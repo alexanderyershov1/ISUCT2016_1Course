@@ -5,8 +5,10 @@ public class SuperCar extends Car  implements TechInterface {
     void Starter() {
         System.out.println("Engine loudly start");
     }
-    void isOil(){
+    @Override
+    boolean isOil(){
         System.out.println("Oil is excellent");
+        return true;
     }
     boolean isTurbocharging(){
         System.out.println("Turbocharging is OK\r\n");
