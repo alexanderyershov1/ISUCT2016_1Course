@@ -13,7 +13,14 @@ public class RabbitTest {
         pub[1].setAge(52);
         System.out.print(pub[1].getAge());
     }
+
+    int summ(int a, int b) {
+        int c = a + b;
+        return c;
+    }
 }
+
+
 
 
 
