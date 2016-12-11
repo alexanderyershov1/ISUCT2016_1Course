@@ -1,7 +1,14 @@
 public class Demo {
     public static void main(String[] args) {
+        SuperCar Demo = new SuperCar("Gold", "Rose");
+        Demo.Starter();
+        System.out.println(Demo.toString());
+        Demo.setNumofwheels(4);
+
+
+    //Старый код
+
         Car c = new Car();
-      //  System.out.println(Demo.toString());
         c.setBrand("Volkswagen");
         c.setModel("Golf VII");
         c.setHorsepower(170);
@@ -60,7 +67,11 @@ public class Demo {
         long c = a + b;
         return c;
     }
+
+    //Старый код
+
 }
+
 
 
 

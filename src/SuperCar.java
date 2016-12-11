@@ -2,6 +2,17 @@
  * Created by stud_6 on 22.11.16.
  */
 public class SuperCar extends Car  implements TechInterface {
+    public SuperCar(){
+        setColor("Gold");
+        setShade("Rose Gold");
+    }
+
+    public SuperCar(String Col, String Shd){
+        setColor(Col);
+        setShade(Shd);
+    }
+
+
     void Starter() {
         System.out.println("Engine loudly start");
     }
