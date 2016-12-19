@@ -1,10 +1,10 @@
-package FirstGame;
+package firstGame;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by stud_6 on 14.11.16.
@@ -44,13 +44,13 @@ public class DotComTest {
     }
 
     @Test
-    public void checkYourself3() throws Exception
-
-    {
-        ArrayList<String> trueLocation = new ArrayList<String>();
+    public void checkYourself3() throws Exception{
+    ArrayList<String> trueLocation = new ArrayList<String>();
         trueLocation.add("2");
         trueLocation.add("3");
         trueLocation.add("4");
+
+
 
         DotCom dotCom = new DotCom();
         dotCom.setLocationCells(trueLocation);

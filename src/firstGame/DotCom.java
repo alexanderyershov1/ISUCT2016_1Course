@@ -1,4 +1,4 @@
-package FirstGame;
+package firstGame;
 
 /**
  * Created by stud_6 on 14.11.16.
