@@ -3,14 +3,14 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by stud_6 on 12.12.16.
+ * Created by Maxim on 09-Jan-17.
  */
 public class CalculatorTest {
     @Test
-    public void equation1() throws Exception {
-        Calculator calc = new Calculator();
-        double result = calc.equation1(1.25);
-        double expResult = 4;
-        assertEquals(expResult, result,0.001);
-        }
+    public void equ1() throws Exception {
+        Calculator calcRes = new Calculator();
+        double result = calcRes.equ1(1.25);
+        double expResult = 1.5627;
+        assertEquals(expResult, result, 0.001);
     }
+}
