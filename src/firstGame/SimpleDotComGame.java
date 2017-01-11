@@ -3,6 +3,8 @@ package firstGame;
 /**
  * Created by Maxim on 11-Jan-17.
  */
+
+/*
 public class SimpleDotComGame {
     public static void main(String[] args){
         int numOfGuesses = 0;
@@ -28,3 +30,5 @@ public class SimpleDotComGame {
         }
     }
 }
+
+*/
