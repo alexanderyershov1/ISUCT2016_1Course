@@ -6,6 +6,6 @@ package E;
 public class Multiply_1Demo {
     public static void main(String[] args) {
         Multiply_1 mtpl = new Multiply_1();
-        mtpl.process(9,8);
+        mtpl.processM(9,8);
     }
 }
