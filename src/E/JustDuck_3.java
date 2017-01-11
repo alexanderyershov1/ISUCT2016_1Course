@@ -10,6 +10,5 @@ public class JustDuck_3 extends JustDuck_3_abstr{
 
     @Override
     public void quack() {
-
     }
 }
