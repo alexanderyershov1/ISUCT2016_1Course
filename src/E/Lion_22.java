@@ -3,10 +3,10 @@ package E;
 /**
  * Created by UI on 12.01.2017.
  */
-public class Wolf_22 extends Canidae_22 {
+public class Lion_22 extends Felidae_22 {
     @Override
     public void makeNoise() {
-        System.out.println("Wolf Vooo");
+        System.out.println("Lion Arr");
     }
 
     @Override
@@ -14,4 +14,3 @@ public class Wolf_22 extends Canidae_22 {
 
     }
 }
-

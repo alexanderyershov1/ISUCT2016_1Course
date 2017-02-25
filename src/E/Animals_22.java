@@ -1,8 +1,9 @@
 package E;
 
 /**
- * Created by Maxim on 12-Jan-17.
+ * Created by UI on 24.11.2016.
  */
+
 public abstract class Animals_22 {
     String location;
     int boundaries;
@@ -14,5 +15,4 @@ public abstract class Animals_22 {
     }
     public abstract void makeNoise();
     public abstract void Eat();
-
 }

@@ -1,16 +1,7 @@
 package E;
 
 /**
- * Created by Maxim on 12-Jan-17.
+ * Created by UI on 12.01.2017.
  */
-public class Canidae_22 extends Animals_22 {
-    @Override
-    public void makeNoise() {
-
-    }
-
-    @Override
-    public void Eat() {
-
-    }
+public abstract class Canidae_22 extends Animals_22 {
 }
