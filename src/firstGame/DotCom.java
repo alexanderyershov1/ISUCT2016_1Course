@@ -6,13 +6,16 @@ package firstGame;
 import java.util.ArrayList;
 public class DotCom {
     private ArrayList<String> locationCells;
-    // private int numOfHits
-    // сейчас нам это не нужно
+    private String name;
 
     public void setLocationCells(ArrayList<String> loc) {
         locationCells = loc;
+    }
 
-}
+    public void setName(String n) {
+        name = n;
+    }
+
     public String checkYourself(String userInput) {
         String result = "Мимо";
             int index = locationCells.indexOf(userInput);
@@ -21,9 +24,11 @@ public class DotCom {
 
                 if (locationCells.isEmpty()) {
                     result = "Потопил";
+                    System.out.println("Ой, вы потопили " + name + "   :(");
                 } else {
                 result = "Попал";
                 } //Конец if
+                return result;
             } // Конец внешнего if
 
         return result;
