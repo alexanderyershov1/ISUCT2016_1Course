@@ -13,13 +13,6 @@ public class Email_11Demo {
         email.setCity("Викторград");
         email.setRegion("Викторовская область");
         email.setZip(123123);
-        email.getName();
-        email.getStreet();
-        email.getApart();
-        email.getNumApart();
-        email.getCity();
-        email.getRegion();
-        email.getZip();
 
 
         System.out.println("Имя " + email.getName() + ", улица " + email.getStreet() + ", дом " + email.getApart() + ", кв " + email.getNumApart() + ", г. " + email.getCity() + ", область " + email.getRegion() + ", " + email.getZip());

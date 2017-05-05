@@ -13,14 +13,12 @@ public class MaxNum_5 {
                 prevMax=max;
                 max=arr1[i];
             }else{
-                if(prevMax<=arr1[i]){
-                    prevMax=arr1[i];
-                }
+                prevMax=arr1[i];
             }
         }
         int y = max * prevMax;
-        System.out.println("Максимальное произведение = "+y);
-        System.out.println("Числа макс. значения: "+max+" и "+prevMax);
+        System.out.println("Максимальное произведение = " + y);
+        System.out.println("Числа макс. значения: " + max + " и " + prevMax);
     }
 }
 

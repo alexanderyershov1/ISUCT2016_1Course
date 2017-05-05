@@ -6,14 +6,13 @@ package E;
 
 public class MaxEl_4 {
     public void smi(int[] array){
-        int[] search = array;
         int maxIndex = 0;
-        for (int i = 0; i < search.length; i++) {
-            if (search[maxIndex] < search[i]) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[maxIndex] < array[i]) {
                 maxIndex = i;
             }
         }
-        System.out.println(search[maxIndex]);
+        System.out.println(array[maxIndex]);
         System.out.println(maxIndex);
     }
 }

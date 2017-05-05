@@ -12,12 +12,11 @@ public class DuckSp_7 extends Duck_7 implements DuckInt1_7, DuckInt2_7 {
         dusksp.display();
     }
 
-    @Override
+
     public void fly() {
         System.out.println("Я конкретная летящая утка!");
     }
 
-    @Override
     public void quack() {
         System.out.println("Я конкретно крякаю!");
 
