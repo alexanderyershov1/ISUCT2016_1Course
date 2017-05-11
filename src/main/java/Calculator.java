@@ -1,9 +1,15 @@
 import java.util.ArrayList;
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  * Created by stud_6 on 12.12.16.
  */
 public class Calculator {
+
     public Double equ1(double x) {
 
         double d1 = Math.pow(x, 2);

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/intellij
 
 ### Intellij ###
@@ -20,8 +19,8 @@
 .idea/**/uiDesigner.xml
 
 # Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+# .idea/**/gradle.xml
+# .idea/**/libraries
 
 # CMake
 cmake-build-debug/
@@ -64,20 +63,3 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/intellij
-=======
-*.class
-*.swp
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-.idea/
->>>>>>> 613b07aa79f98fc9fa3bd632bba4b06b28637ca1
