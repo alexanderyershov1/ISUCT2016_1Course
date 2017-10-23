@@ -1,3 +1,5 @@
+package observer;
+
 public class StatisticsDisplay implements Observer, DisplayElement{
     private float temperature;
     private float humidity;
