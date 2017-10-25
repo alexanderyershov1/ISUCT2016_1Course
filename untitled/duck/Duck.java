@@ -1,18 +1,21 @@
-/**
- * Created by UI on 27.09.2017.
- */
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
+
     public Duck(){
+
     }
+
     public abstract void display();
+
     public void performFly(){
         flyBehavior.fly();
     }
+
     public void performQuack(){
-            quackBehavior.quack();
+        quackBehavior.quack();
     }
+
     public void swim(){
         System.out.println("All ducks float, even decoys!");
     }
@@ -22,4 +25,6 @@ public abstract class Duck {
     public void setQuackBehavior(QuackBehavior qb){
         quackBehavior = qb;
     }
+
+
 }
