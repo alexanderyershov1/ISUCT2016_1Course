@@ -1,3 +1,5 @@
+package duck;
+
 /**
  * Created by UI on 27.09.2017.
  */

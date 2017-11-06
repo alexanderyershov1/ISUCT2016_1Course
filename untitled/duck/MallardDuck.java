@@ -1,3 +1,8 @@
+package duck;
+
+import duck.Duck;
+import duck.FlyWithWings;
+
 /**
  * Created by UI on 27.09.2017.
  */

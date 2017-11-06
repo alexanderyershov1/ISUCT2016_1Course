@@ -1,3 +1,9 @@
+package duck;
+
+import duck.Duck;
+import duck.FlyRocketPowered;
+import duck.MallardDuck;
+
 /**
  * Created by UI on 27.09.2017.
  */
