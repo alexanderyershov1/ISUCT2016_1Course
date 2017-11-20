@@ -1,0 +1,14 @@
+package decoder;
+
+/**
+ * Created by UI on 20.11.2017.
+ */
+public abstract class Beverage {
+    String description = "Unknown Beverage";
+
+    public String getDescription(){
+        return description;
+    }
+
+    public abstract double cost();
+}
